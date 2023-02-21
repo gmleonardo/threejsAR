@@ -76,7 +76,7 @@
 
         new RGBELoader()
           .setPath("textures/")
-          .load("music_hall_01_4k.hdr", function (hdrmap) {
+          .load("music_hall_01_1k.hdr", function (hdrmap) {
             let envmap = envmaploader.fromCubemap(hdrmap);
             let texture = new THREE.CanvasTexture(new FlakesTexture());
             texture.wrapS = THREE.RepeatWrapping;
